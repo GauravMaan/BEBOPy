@@ -1,0 +1,5 @@
+# print(10+"welcome")
+print("hello"+ "python")
+print ("true"+"true")
+print(True+True)
+print(False+True)
