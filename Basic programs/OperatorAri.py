@@ -1,9 +1,10 @@
 # Arithmatic operator
 
-# a=5
-# b=10
+# a=10
+# b=5
 # print(a+b)
 # print(a-b)
+# print(a*b)
 # print(a%b)
 # print(a/b)
 # print(a//b)
@@ -34,9 +35,9 @@
 # print ("Sum of two number is",c)
 
 # remender of two number
-a=10
-print ("First number is A :",a)
-b=100
-print ("Second number is B :",b)
-c=(a/b)
-print ("Remender of two numbers are:",c)
+# a=10
+# print ("First number is A :",a)
+# b=100
+# print ("Second number is B :",b)
+# c=(a/b)
+# print ("Remender of two numbers are:",c)
