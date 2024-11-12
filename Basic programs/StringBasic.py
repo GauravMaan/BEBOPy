@@ -39,8 +39,14 @@
 
 # print(len("Gaurav"))
 
-s="welcome"
-print("come" in s)
-print("come" not in s)
-print("cme" in s)
-print("cme" not in s)
+# s="welcome"
+# print("come" in s)
+# print("come" not in s)
+# print("cme" in s)
+# print("cme" not in s)
+
+print("maan">"Maan")
+print("teeth"=="teeth")
+print("abc">" ")
+print("panner"<"milk")
+print("panner"!="milk")
