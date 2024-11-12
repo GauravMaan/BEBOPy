@@ -20,3 +20,6 @@
 # a=b=c=100
 # print(a,b,c)
 
+a=10+7j
+print(type(a))
+
