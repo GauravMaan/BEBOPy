@@ -45,8 +45,55 @@
 # print("cme" in s)
 # print("cme" not in s)
 
-print("maan">"Maan")
-print("teeth"=="teeth")
-print("abc">" ")
-print("panner"<"milk")
-print("panner"!="milk")
+# print("maan">"Maan")
+# print("teeth"=="teeth")
+# print("abc">" ")
+# print("panner"<"milk")
+# print("panner"!="milk")
+
+# print('welcome'.isalnum())
+# print('welcome123'.isalnum())
+# print('123'.isalnum())
+#
+# s="gaurav maan"
+# print(s.isalpha())
+# s="gauravmaan"
+# print(s.isalpha())
+# s="gauravmaan123"
+# print(s.isalpha())
+#
+# s='123433'
+# print(s.isdigit())
+
+# s="gauravmaan"
+# print(s.islower())
+# s="gauravmaan123"
+# print(s.isupper())
+
+# s="gaurav maan"
+# print(s.isspace())
+# s=" "
+# print(s.isspace())
+
+# s="gaurav maan"
+# print(s.endswith("aan"))
+# s="gaurav maan"
+# print(s.startswith("gau"))
+
+# s="gaurav maan"
+# print(s.find("u"))
+# s="gaurav maan"
+# print(s.find("w"))
+
+# s="gaurav maan"
+# print(s.count("a"))
+
+
+print("Converting the string")
+
+print("gaurav".capitalize())
+print("gaurav".title())
+print("gaurav".lower())
+print("gaurav".swapcase())
+print("GAURAV".swapcase())
+print("gaurav".replace("ga","ve"))
