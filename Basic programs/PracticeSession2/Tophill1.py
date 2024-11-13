@@ -1,5 +1,5 @@
 
-n = 4
+n = int(input("Enter the number: "))
 count = 1
 for i in range(n):
     for s in range(1, n - i):
