@@ -5,7 +5,7 @@ print(f"Prime factors of {num} are:", end=" ")
 while num > 1:
     if num % factor == 0:
         print(factor, end=" ")
-        num //= factor
+        num //= factor  #for reducing the number
     else:
         factor += 1
 
