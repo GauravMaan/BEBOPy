@@ -14,8 +14,7 @@
 # s2 = s2.strip()
 # print(s2)
 
-s="i am don"
-s2=s.split()
-for i in s2:
-    r=s2[-1: : -1]
-    print(r)
+s = "i am don"
+s2 = s.split()
+r = s2[::-1]
+print(r)

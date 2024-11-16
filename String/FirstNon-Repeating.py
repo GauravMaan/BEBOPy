@@ -1,14 +1,14 @@
-# s = input("Enter the string: ")
-# words = s.split()
-# count = {}
-# for word in words:
-#     if word in count:
-#         count[word] += 1
-#     else:
-#         count[word] = 1
-# for word in words:
-#     if count[word] == 1:
-#         print(f"The first non-repeatable word is: {word}")
-#         break
-# else:
-#     print("No non-repeatable word found.")
+
+string = input("Enter a string: ")
+count = {}
+for char in string:
+    count[char] = count.get(char, 0) + 1
+re = None
+for char in string:
+    if count[char] == 1:
+        re = char
+        break
+if re:
+    print(f"The first non-repeating character is '{re}'")
+else:
+    print("No non-repeating character found")

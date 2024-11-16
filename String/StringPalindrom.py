@@ -9,7 +9,7 @@ s2 = ""
 for i in s:
     s2 = i + s2
 if s == s2:
-    print("It is a palindrome:", s)
+    print(f"{s} is a palindrome:")
 else:
-    print("It is not a palindrome:", s)
+    print(f"{s} is not a palindrome:")
 
