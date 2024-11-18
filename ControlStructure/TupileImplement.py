@@ -1,22 +1,32 @@
 # Defining a tuple
-my_tuple = (1, 2, 3, 4, 5)
-
+tuple = (1, 2, 3, 4, 5)
 # Tuple with mixed data types
 mixed_tuple = (1, "hello", 3.14, True)
-
-print(my_tuple[0])
+#Accessing Tuple
+print(tuple[0])
 print(mixed_tuple[1])
+print("<---------------------------------------->")
 
-print(my_tuple[1:4])
-
+print(tuple[1:4])
+print("<---------------------------------------->")
 # Counting occurrences of a value
-print(my_tuple.count(3))
-
+print(tuple.count(3))
+print("<---------------------------------------->")
 # Finding the index of a value
-print(my_tuple.index(4))
-
-# my_tuple[0] = 10  # This will raise a TypeError
-
-a, b, c, d, e = my_tuple
+print(tuple.index(4))
+print("<---------------------------------------->")
+a, b, c, d, e = tuple
 print(a)
 print(b)
+print("<---------------------------------------->")
+#tuple with single element
+tuple1=(1,)
+print(type(tuple1))
+print("<---------------------------------------->")
+#iteration on tuple
+tuple1=(1,2,3,4,4)
+for i in tuple1:
+    print(i)
+print("<---------------------------------------->")
+
+tuple[0] = 10  # This will raise a TypeError
