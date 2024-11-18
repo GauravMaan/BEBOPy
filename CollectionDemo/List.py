@@ -54,4 +54,49 @@
 # del(mylist)
 # print(mylist)
 
+##Copy the list
+# mylist=[1,2,3,4,5]
+# elist=list(mylist)
+# print(mylist)
+# print(elist)
+# print("<------------>")
+# mylist=[1,2,3,4,5]
+# elist=[]
+# mylist1=mylist.copy()
+# print(mylist)
+# print(mylist1)
+
+##extend oprater
+# list11 = [1, 2, 3]
+# list21 = [4, 5, 6]
+#
+# list11.extend(list21)  # Add elements of list2 to list1
+# print(list11)
+
+##append
+# my_list101 = [1, 2, 3]
+# my_list101.append(4)
+# print(my_list101)
+
+
+# a=input("enter the string: ").split(" ")
+# print(a)
+
+a = list(map(int, input("Enter the numbers: ").split()))
+print(a)
+print("<--------------------------->")
+a.sort()
+print("after the sort",a)
+print("<--------------------------->")
+a.sort(reverse=True)
+print("After reverse",a)
+print("<--------------------------->")
+print(a.count(3))
+
+
+
+
+
+
+
 
