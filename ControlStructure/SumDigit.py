@@ -1,9 +1,9 @@
 num = int(input("Enter an integer: "))
 while num >= 10:
-    sum_digits = 0
+    sum = 0
     while num > 0:
-        sum_digits += num % 10
+        sum += num % 10
         num //= 10
-    num = sum_digits
+    num = sum
 print(f"The single-digit sum is {num}")
 
