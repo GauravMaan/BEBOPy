@@ -1,13 +1,15 @@
 start = int(input("Enter the start of the range: "))
 end = int(input("Enter the end of the range: "))
-prime_numbers = []
-for num in range(start, end + 1):
-    if num > 1:
+primeNo = []
+count=0
+for j in range(start, end + 1):
+    if j > 1:
         is_prime = True
-        for i in range(2, int(num ** 0.5) + 1):
-            if num % i == 0:
+        for i in range(2, int(j ** 0.5) + 1):
+            if j % i == 0:
                 is_prime = False
                 break
         if is_prime:
-            prime_numbers.append(num)
-print("Prime numbers in the range:", prime_numbers)
+            primeNo.append(j)
+            count += 1
+print(f"Prime numbers in the range {primeNo} and count is {count}")
