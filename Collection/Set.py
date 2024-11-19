@@ -30,13 +30,13 @@ my_set5={1,2,3,4,86}
 print(my_set4-my_set5)#difference
 print(my_set4^my_set5)#symmetric difference
 print("---------------------------")
-
-
-
+mylist=[1,2,3,4,5,6,5]
+myset7=set(mylist)
+print(myset7)
 print("---------------------------")
-my_set6={14,2,3,45,5}
-fro=frozenset(my_set6)
-print(fro)
-fro.add(10)
-print(fro)
+# my_set6={14,2,3,45,5}
+# fro=frozenset(my_set6)
+# print(fro)
+# fro.add(10)
+# print(fro)
 
