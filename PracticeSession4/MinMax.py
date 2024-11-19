@@ -5,7 +5,7 @@ max = nums[0]
 for num in nums:
     if num < mini:
         mini = num
-    if num > max:
+    else:
         max = num
 result = (mini, max)
 print("Output:", result)
