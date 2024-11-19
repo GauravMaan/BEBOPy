@@ -2,16 +2,16 @@
 # ans = s.title()
 # print("Title case string:", ans)
 
-text = input("Enter a string: ")
-result = ""
+s = input("Enter a string: ")
+s1 = ""
 ans = True
-for char in text:
-    if char.isspace():
-        result += char
+for i in s:
+    if i.isspace():
+        s1 += i
         ans = True
     elif ans:
-        result += char.upper()
+        s1 += i.upper()
         ans = False
     else:
-        result += char.lower()
-print("Title Case:", result)
+        s1 += i.lower()
+print("Title Case:", s1)
