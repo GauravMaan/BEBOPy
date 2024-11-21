@@ -40,18 +40,16 @@ print("---------------------------")
 # fro.add(10)
 # print(fro)
 
-My_set11 = (1, 2, 3, 4, 5)
+Myset = {10, 20, 30, 56, 40}
 maxi = float('-inf')
 mini = float('inf')
-for i in My_set11:
+for i in Myset:
     if i > maxi:
-        maxi = i
+         maxi = i
     if i < mini:
-        mini = i
-Mylist11 = list(My_set11)
-Mylist11.remove(mini)
-Mylist11.remove(maxi)
-My_set11 = tuple(Mylist11)
-print(My_set11)
+         mini = i
+Myset.remove(mini)
+Myset.remove(maxi)
+print(Myset)
 
 
