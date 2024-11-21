@@ -40,5 +40,17 @@ print("---------------------------")
 # fro.add(10)
 # print(fro)
 
-
+Myset11 = (1, 2, 3, 4, 5)
+maxi = float('-inf')
+mini = float('inf')
+for i in Myset11:
+    if i > maxi:
+        maxi = i
+    if i < mini:
+        mini = i
+Mylist11 = list(Myset11)
+Mylist11.remove(mini)
+Mylist11.remove(maxi)
+Myset11 = tuple(Mylist11)
+print(Myset11)
 
