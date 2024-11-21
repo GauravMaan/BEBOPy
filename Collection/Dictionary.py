@@ -78,7 +78,11 @@ print("===============================================")
 mydict10=set(mydict1.values()) ^ set(mydict4.values())
 print(mydict10)
 print("===============================================")
-
+Mydict11 = {"a": 10, "b": 10, "c": 20}
+target = 10
+for key, value in Mydict11.items():
+    if value == target:
+        print(f"Key: {key}, Value: {value}")
 print("===============================================")
 
 
