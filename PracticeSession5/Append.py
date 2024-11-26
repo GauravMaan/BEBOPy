@@ -1,0 +1,6 @@
+numbers = (1, 2, 3, 4)
+append_no = int(input("Enter a number to append: "))
+list1 = list(numbers)
+list1.append(append_no)
+result = tuple(list1)
+print("Updated tuple:", result)
