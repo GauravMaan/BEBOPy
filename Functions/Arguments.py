@@ -35,17 +35,17 @@
 #         print(f'{key} {value}')
 # student(name="bob",id="1010")
 
-def display(*args,**kwargs):
-    print(args)
-    print(kwargs)
-display(1,2,3,4,name="gaurav",sal=40000)
+# def display(*args,**kwargs):
+#     print(args)
+#     print(kwargs)
+# display(1,2,3,4,name="gaurav",sal=40000)
+#
+# #*args with Positional
+# def greet(name,*args):
+#     print(name,args)
+# greet("gaurav","vivek","bob",1,2,3,4)
 
-#*args with Positional
-def greet(name,*args):
-    print(name,args)
-greet("gaurav","vivek","bob",1,2,3,4)
-
-
+#*args , **kwargs with Positional
 def greet(name,*args,**kwagrs):
     print(name)
     for i in args:
