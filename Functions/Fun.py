@@ -4,7 +4,7 @@
 # by using def we can create the function
 
 # if there is no return it print none
-# function not printing but return thr some value
+# function not printing but return the some value
 # function takes arguments but no return value
 # function take argument and return the value
 
