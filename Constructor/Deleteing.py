@@ -14,3 +14,5 @@ class employee:
 obj1 = employee("gaurav", 9000, 8989)
 obj1.display()
 print(obj1)
+del obj1.e #using del keyword for deleting the attribute from code
+print(obj1.e)
