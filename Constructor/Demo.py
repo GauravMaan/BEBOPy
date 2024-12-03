@@ -15,7 +15,7 @@ class demo:
     def __init__(self):
         print("hello")
     def demo1(self):
-        print(self)
+        print(self) # for address of class object
 obj1=demo()
 obj1.demo1()
 
