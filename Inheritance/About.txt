@@ -1,0 +1,16 @@
+Acquires all the attribute and behaviour of one class to another class
+code reusable
+types:-
+1. base class/super class/parent class
+2. child class/subclass/drove class
+use to reduce duplication
+Type of inheritance
+1. single inheritance
+2. Multi Level
+3. Hierarchy
+4. Multiple
+
+Python not completely support method overloading. With default argument we can achieve it
+it support method overriding
+
+ super().method_name() #invoke immediate parent class method ; calling parent class
