@@ -1,0 +1,5 @@
+private:- it is use by __(double underscore) like __a=10.can be use by class_name in python
+public:-
+protected:- _ use for it
+
+
