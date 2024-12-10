@@ -1,0 +1,6 @@
+classes that cannot instantiate(can not make the object) on their own and are meant to be sub classes.
+they serve as a blueprint to another classes
+They do not have body's
+Contain abstract method
+May contain concreate method
+Import Module ABC for abstract(like:-@abstractClass)
