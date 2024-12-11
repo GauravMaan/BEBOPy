@@ -1,0 +1,10 @@
+type
+1. syntax
+2. Logical
+3. Run-time:error at the execute time
+
+Error occur at run time is called Exception
+by using try nd except use to handel the exception
+
+exception is mother of all error(name like ArithmeticException )
+there is finally(optional) , catch , and else
