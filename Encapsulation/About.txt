@@ -1,0 +1,2 @@
+It wrapping of the data in single module
+private data only access throw method (getter and setter)
