@@ -32,4 +32,15 @@
 # except ValueError:
 #     print("Invalid input. Please enter a valid integer.")
 #     yoo()
+class NegativeValueError(Exception):
+    pass
+
+def check_value(value):
+    if value < 0:
+        raise NegativeValueError("Badmashi ni mitar!")
+
+try:
+    check_value(-10)
+except NegativeValueError as e:
+    print(e)
 
