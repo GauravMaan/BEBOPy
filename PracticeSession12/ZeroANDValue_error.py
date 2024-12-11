@@ -1,5 +1,5 @@
 try:
-    num, divisor = map(int, input("enter the numbers: ").split())
+    num, divisor = map(int, input().split())
     print(num / divisor)
 except ZeroDivisionError:
     print("Division by zero is not allowed.")
