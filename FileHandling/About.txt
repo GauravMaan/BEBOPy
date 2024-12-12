@@ -1,0 +1,5 @@
+writing the data in text file we use open("path of file",'Mode like w' )
+file.close()
+file is external resource
+os is use to remove file at operating system level
+rmdir use to remove directory
