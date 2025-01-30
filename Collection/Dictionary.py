@@ -85,4 +85,10 @@ for key, value in Mydict11.items():
         print(f"Key: {key}, Value: {value}")
 print("===============================================")
 
+dic = {'a': "hello"}
+count = {}
 
+for i in dic['a']:
+    count[i] = count.get(i, 0) + 1
+
+print(count)
