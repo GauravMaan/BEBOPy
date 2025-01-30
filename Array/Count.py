@@ -1,10 +1,10 @@
 my_list = ["hello"]
-char_count = {}
+count = {}
 
-for char in my_list[0]:
-    if char in char_count:
-        char_count[char] += 1
+for i in my_list[0]:
+    if i in count:
+        count[i] += 1
     else:
-        char_count[char] = 1
+        count[i] = 1
 
-print(char_count)
+print(count)
