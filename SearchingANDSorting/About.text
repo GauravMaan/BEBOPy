@@ -1,0 +1,12 @@
+Searching is the process of finding a specific from a collection of elements
+
+Sorting is the process of arranging elements in specific order
+
+Linear search: This is the simplest searching algorithm.
+It checks each element in the list or array sequentially
+until it finds the target element or reaches the end.
+
+Binary search: Binary search is an efficient searching algorithm that works on sorted arrays or lists.
+It works by repeatedly dividing the search interval in half.
+If the value of the target is less than the value in the middle,
+the search continues in the left half, otherwise, it continues in the right half.
