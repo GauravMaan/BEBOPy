@@ -1,13 +1,13 @@
-string = input("Enter a string: ")
-count = {}
-for char in string:
-    count[char] = count.get(char, 0) + 1
-re = None
-for char in string:
-    if count[char] == 1:
-        re = char
-        break
-if re:
-    print(f"The first non-repeating character is '{re}'")
-else:
-    print("No non-repeating character found")
+def non_repeating(string1):
+    tem={}
+    for i in string1:
+        if i in tem:
+            tem[i]+=1
+        else:
+            tem[i]=1
+    for j in string1:
+       if tem[j]==1:
+            print(j)
+            break
+string1=input("Enter the String: ")
+ans=non_repeating(string1)
