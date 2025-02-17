@@ -1,5 +1,6 @@
 def insertion_sort(data):
-    for i in range(1, len(data)):
+    n=len(data)
+    for i in range(1, n):
         key = data[i]
         j = i - 1
         while j >= 0 and data[j] > key:
